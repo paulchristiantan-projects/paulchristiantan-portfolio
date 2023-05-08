@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
     height: 100vh;
-    background-color: #fff;
+    background-color: #E9F8F9;
+    color: #181823;
     transition: all 0.3s ease-in-out;
     padding: 20px;
 }
 body.dark {
-    background-color: #18191a;
+    background-color: #181823;
+    color: #E9F8F9;
 }
 
 .toggle {
@@ -19,10 +22,9 @@ body.dark {
     position: relative;
     height: 30px;
     width: 80px;
-    border-radius: 10px;
-    background-color: #fff;
+    border-radius: 50px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    border: 1px solid #18191a;
+    border: 1px solid #537FE7;
     cursor: pointer;
     padding: 20px;
 }
@@ -31,7 +33,7 @@ body.dark {
     position: absolute;
     height: 30px;
     width: 30px;
-    background: yellow;
+    background: #181823;
     border-radius: 50%;
     top: 50%;
     left: 14px;
@@ -40,6 +42,33 @@ body.dark {
 }
 
 .toggle.active::before {
-    background: black;
+    background: #E9F8F9;
     left: calc(100% - 30px - 14px)
+}
+
+
+.header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 1.5rem;
+    align-items: center;
+}
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: auto;
+    padding-right: 5rem;
+}
+.header .logo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 25px;
 }
