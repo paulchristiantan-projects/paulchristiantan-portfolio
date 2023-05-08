@@ -7,7 +7,7 @@
 - [Features](#features)
 
 ## Overview
--Paul Christian Tan's Website
+- Paul Christian Tan's Website
 
 ### Built With
 - Javascript
