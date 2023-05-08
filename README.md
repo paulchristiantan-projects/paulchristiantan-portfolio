@@ -10,15 +10,15 @@
 -Paul Christian Tan's Website
 
 ### Built With
--Javascript
--CSS
--Tailwind
--HTML
+- Javascript
+- CSS
+- Tailwind
+- HTML
 
 ## Features
--Dashboard
--Support for mobile devices
+- Dashboard
+- Support for mobile devices
 
 ## Contact
--paulchristiantan-projects@gmail.com
+- paulchristiantan-projects@gmail.com
 
