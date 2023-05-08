@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+}
+body.dark {
+    background-color: #18191a;
+}
+
+.toggle {
+    float: right;
+    position: relative;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border: 1px solid #18191a;
+    cursor: pointer;
+    padding: 20px;
+}
+.toggle::before {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: yellow;
+    border-radius: 50%;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.toggle.active::before {
+    background: black;
+    left: calc(100% - 30px - 14px)
+}
