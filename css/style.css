@@ -21,7 +21,7 @@ body.dark {
     float: right;
     position: relative;
     height: 30px;
-    width: 80px;
+    width: 100px;
     border-radius: 50px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     border: 3px solid #537FE7;
@@ -95,10 +95,11 @@ body.dark {
     height: 28rem;
     width: 20rem;
     background-size: cover !important;
-    border-radius: 10%;
+    border-radius: 15%;
     float: right;
     padding: 20px;
     outline: 2.5px solid #537FE7;
+    cursor: pointer;
 }
 .dp:hover {
     animation: shakedp 5s;
@@ -179,12 +180,17 @@ body.dark {
     border-radius: 50px;
     letter-spacing: 1.5px;
     cursor: pointer;
-    border: 3px solid #4070F4;
+    border: none;
     color: #4070F4;
-    background-color: transparent;
+    background-color: #4070F4;
 }
 .hero-title .explore button:hover {
     background: #4070F4;
+    color: white;
+    opacity: 90%;
+}
+.hero-title .explore a {
+    text-decoration: none;
     color: white;
 }
 
@@ -194,6 +200,7 @@ body.dark {
     column-gap: 50px;
     padding-top: 50px;
     height: 8rem;
+    cursor: pointer;
 }
 .icon {
     display: inline-flex;
@@ -262,3 +269,5 @@ body.dark {
         transform: rotate(-1deg);
     }
 }
+
+/*For Mobile Devices*/
