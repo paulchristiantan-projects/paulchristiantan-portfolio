@@ -24,9 +24,13 @@ body.dark {
     width: 80px;
     border-radius: 50px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    border: 1px solid #537FE7;
+    border: 3px solid #537FE7;
     cursor: pointer;
     padding: 20px;
+}
+
+.toggle:hover {
+    background-color: #4070F4;
 }
 .toggle::before {
     content: '';
@@ -101,6 +105,28 @@ body.dark {
     outline: 3px solid black;
 }
 
+.slides {
+    width: 20rem;
+    height: 28rem;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 10%;
+    transition: 2s;
+}
+
+.slide .dp {
+    width: 20rem;
+    height: 28rem;
+}
+
+
+
 .hero-title {
     order: 2;
     width: 60%;
@@ -142,6 +168,10 @@ body.dark {
     letter-spacing: 3px;
     padding-bottom: 2.5rem;
     line-height: 1.75;
+}
+.explore {
+    display: flex;
+    gap: 3rem;
 }
 .hero-title .explore button {
     border-radius: 10px;
