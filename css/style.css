@@ -7,14 +7,14 @@
 
 body {
     height: 100vh;
-    background-color: #E9F8F9;
+    background-color: #ffffff;
     color: #181823;
     transition: all 0.3s ease-in-out;
-    padding: 20px;
+    padding: 2rem;
 }
 body.dark {
     background-color: #181823;
-    color: #E9F8F9;
+    color: #ffffff;
 }
 
 .toggle {
@@ -42,7 +42,7 @@ body.dark {
 }
 
 .toggle.active::before {
-    background: #E9F8F9;
+    background: #ffffff;
     left: calc(100% - 30px - 14px)
 }
 
@@ -83,17 +83,22 @@ body.dark {
     order: 1;
     width: 40%;
     padding-top: 13rem;
+    padding-right: 3rem;
     display: flex;
     flex-direction: row-reverse;
 }
 .dp {
-    height: 20rem;
-    width: 20rem;
+    height: 33rem;
+    width: 25rem;
     background-size: cover !important;
-    border-radius: 50%;
+    border-radius: 10%;
     float: right;
     padding: 20px;
     outline: 2.5px solid #537FE7;
+}
+.dp:hover {
+    animation: shakedp 5s;
+    outline: 3px solid black;
 }
 
 .hero-title {
@@ -113,11 +118,11 @@ body.dark {
 }
 .hero-title .position {
     font-size: 25px;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     text-transform: uppercase;
     width: 30rem;
     display: flex;
-    padding-top: .8rem;
+    padding-top: 0.75rem;
     color: #4070F4;
 }
 .hero-title .position::before {
@@ -125,42 +130,32 @@ body.dark {
     position: absolute;
     height: 50px;
     width: 30rem;
-    background-color: #E9F8F9;
+    background-color: #ffffff;
     border-left: 2px solid #4070F4;
     animation: animate 4s steps(19) infinite;
-}
-@keyframes animate {
-    0% {
-        left: 44%;
-    }
-    100% {
-        left: 75%;
-    }
 }
 
 .hero-title .details {
     width: 55%;
-    padding-top: 1.5rem;
+    padding-top: 0.75rem;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     padding-bottom: 2.5rem;
-    font-style: italic;
+    line-height: 1.75;
 }
 .hero-title .explore button {
-    background: black;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    border: none;
-    /* color: white; */
     padding: 12px 15px;
     border-radius: 50px;
     letter-spacing: 1.5px;
     cursor: pointer;
+    border: 3px solid #4070F4;
+    color: #4070F4;
+    background-color: transparent;
 }
 .hero-title .explore button:hover {
-    background: white;
+    background: #4070F4;
+    color: white;
 }
 
 .socials {
@@ -168,6 +163,7 @@ body.dark {
     justify-content: flex-start;
     column-gap: 50px;
     padding-top: 50px;
+    height: 8rem;
 }
 .icon {
     display: inline-flex;
@@ -186,6 +182,7 @@ body.dark {
 
 .icon:hover {
     outline-offset: 4px;
+    outline: 3px solid #537FE7;
 }
 .icon i {
     margin: auto;
@@ -194,6 +191,19 @@ body.dark {
 .icon:hover i {
     animation: shake 0.25s;
 }
+
+
+/*Keyframes*/
+
+@keyframes animate {
+    0% {
+        left: 44%;
+    }
+    100% {
+        left: 70%;
+    }
+}
+
 @keyframes shake {
     10% {
         transform: rotate(15deg);
@@ -206,5 +216,19 @@ body.dark {
     }
     40% {
         transform: rotate(-15deg);
+    }
+}
+@keyframes shakedp {
+    10% {
+        transform: rotate(1deg);
+    }
+    20% {
+        transform: rotate(-1deg);
+    }
+    30% {
+        transform: rotate(1deg);
+    }
+    40% {
+        transform: rotate(-1deg);
     }
 }
