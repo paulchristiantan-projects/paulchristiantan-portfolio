@@ -10,7 +10,7 @@ body {
     background-color: #ffffff;
     color: #181823;
     transition: all 0.3s ease-in-out;
-    padding: 2rem;
+    padding: 0.5rem;
 }
 body.dark {
     background-color: #181823;
@@ -82,14 +82,14 @@ body.dark {
     margin: 0px auto;
     order: 1;
     width: 40%;
-    padding-top: 13rem;
+    padding-top: 2.5rem;
     padding-right: 3rem;
     display: flex;
     flex-direction: row-reverse;
 }
 .dp {
-    height: 33rem;
-    width: 25rem;
+    height: 28rem;
+    width: 20rem;
     background-size: cover !important;
     border-radius: 10%;
     float: right;
@@ -104,7 +104,7 @@ body.dark {
 .hero-title {
     order: 2;
     width: 60%;
-    padding-top: 13rem;
+    padding-top: 5rem;
     padding-left: 5rem;
     overflow: hidden;
 }
@@ -200,7 +200,7 @@ body.dark {
         left: 44%;
     }
     100% {
-        left: 70%;
+        left: 75%;
     }
 }
 
