@@ -21,7 +21,7 @@ body.dark {
     float: right;
     position: relative;
     height: 30px;
-    width: 100px;
+    width: 8rem;
     border-radius: 50px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     border: 3px solid #537FE7;
@@ -31,6 +31,7 @@ body.dark {
 
 .toggle:hover {
     background-color: #4070F4;
+    opacity: 80%;
 }
 .toggle::before {
     content: '';
@@ -103,7 +104,7 @@ body.dark {
 }
 .dp:hover {
     animation: shakedp 5s;
-    outline: 3px solid black;
+    outline: 3px solid gray;
 }
 
 .slides {
@@ -176,18 +177,19 @@ body.dark {
 }
 .hero-title .explore button {
     border-radius: 10px;
-    padding: 12px 15px;
+    /* padding: 12px 15px; */
     border-radius: 50px;
     letter-spacing: 1.5px;
     cursor: pointer;
     border: none;
     color: #4070F4;
     background-color: #4070F4;
+    width: 9rem;
 }
 .hero-title .explore button:hover {
     background: #4070F4;
     color: white;
-    opacity: 90%;
+    opacity: 80%;
 }
 .hero-title .explore a {
     text-decoration: none;
