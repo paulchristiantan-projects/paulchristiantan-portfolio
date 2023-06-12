@@ -94,10 +94,10 @@ body.dark {
     flex-direction: row-reverse;
 }
 .dp {
-    height: 28rem;
+    height: 20rem;
     width: 20rem;
     background-size: cover !important;
-    border-radius: 15%;
+    border-radius: 50%;
     float: right;
     padding: 20px;
     outline: 2.5px solid #537FE7;
@@ -110,7 +110,7 @@ body.dark {
 
 .slides {
     width: 20rem;
-    height: 28rem;
+    height: 20rem;
     display: flex;
 }
 
@@ -120,12 +120,12 @@ body.dark {
 
 .slide {
     width: 10%;
-    transition: 2s;
+    transition: 3s;
 }
 
 .slide .dp {
     width: 20rem;
-    height: 28rem;
+    height: 20rem;
 }
 
 
@@ -289,6 +289,7 @@ img {
 }
 .card-content .position p {
     padding-bottom: 20px;
+    line-height: 2;
 }
 
 .footer {
@@ -376,17 +377,17 @@ img {
 
     .dp {
         width: 15rem;
-        height: 20rem;
+        height: 15rem;
     }   
 
     .slides {
         width: 15rem;
-        height: 20rem;
+        height: 15rem;
     }
 
     .slide .dp {
         width: 15rem;
-        height: 20rem;
+        height: 15rem;
     }
     
     .hero-title {
@@ -428,5 +429,8 @@ img {
     .cards {
         display: block;
         padding: 2rem;
+    }
+    .image-card {
+        display: block;
     }
 }
