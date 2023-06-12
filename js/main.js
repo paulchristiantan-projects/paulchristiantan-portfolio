@@ -25,3 +25,16 @@ const textLoad = () => {
 
 textLoad();
 setInterval(textLoad, 12000);
+
+document.addEventListener('DOMContentLoaded', function() {
+    var content = document.querySelector('.main-content');
+    
+    window.addEventListener('scroll', function() {
+      var contentPosition = content.getBoundingClientRect().top;
+      var screenPosition = window.innerHeight / 1.2; // Adjust this value to control when the animation triggers
+      
+      if (contentPosition < screenPosition) {
+        content.classList.add('fade-in');
+      }
+    });
+  });
