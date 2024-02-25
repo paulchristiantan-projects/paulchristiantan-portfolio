@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="a../../jquery-3.3.1.min.js"></script> 
+    <link rel="stylesheet" href="../birthday-symbol-app/style.css">
+    <script src="../birthday-symbol-app/script.js"></script>
+    <title> Birthday Symbol App</title>
+</head>
+<body>
+    <div class="container">
+        <p class="title"> Please Input your Birth Date:</p>
+        <form action="">
+            <div class="input-container">
+                <input type="text" id="month" placeholder="01">
+                <label for="month"> month </label>
+            </div>
+            <span class="slash"> / </span>
+            <div class="input-container">
+                <input type="text" id="day" placeholder="01">
+                <label for="day"> day </label>
+            </div>
+            <span class="slash"> / </span>
+            <div class="input-container">
+                <input type="text" id="year" placeholder="1999">
+                <label for="year"> year </label>
+            </div>
+        </form>
+        <div class="symbols">
+            <p class="text birthstone">
+                Birthstone <span class="symbol" id="birthstone"> &mdash; </span>
+            </p>
+            <p class="text birthflower">
+                Birthflower <span class="symbol" id="birthflower"> &mdash; </span>
+            </p>
+            <p class="text astrologicalSign">
+                Astrological Sign <span class="symbol" id="astrologicalSign"> &mdash; </span>
+            </p>
+            <p class="text chineseZodiacSign">
+                Chinese Zodiac Sign <span class="symbol" id="chineseZodiacSign"> &mdash; </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
