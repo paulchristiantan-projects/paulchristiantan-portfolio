@@ -54,4 +54,4 @@ src/
 
 ## Live Demo
 
-Visit: https://paulchristiantan-projects.github.io/paulchristiantan-portfolio/
+Visit: https://paulchristiantan-portfolio.vercel.app/
