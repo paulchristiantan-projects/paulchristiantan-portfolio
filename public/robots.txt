@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://paulchristiantan-projects.github.io/paulchristiantan-portfolio/sitemap.xml
