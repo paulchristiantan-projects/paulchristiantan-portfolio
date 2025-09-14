@@ -60,7 +60,15 @@ const Experience = () => {
       title: 'BS Computer Engineering',
       company: 'Polytechnic University of the Philippines',
       period: '2015 - 2020',
-      responsibilities: []
+      responsibilities: [
+        'Association of Concerned Computer Engineering Students for Service (ACCESS): Vice President for Research & Development (2018-2019), Business Manager (2017-2018), 2nd Year Governor (2016-2017), 1st Year Governor (2015-2016)',
+        'Computer Engineering Department 5th Year Batch: Secretary (2019-2020)',
+        'ASPIREN Charity Organization: Member (2016-2020)',
+        'Institute of Computer Engineers of the Philippines - Student Edition: Member (2015-2020)',
+        'PUP College of Engineering Honors Society: Honorary Member (2016-2020)',
+        'PUP College of Engineering Managers for IT: Member (2015-2020)',
+        'KATAGA Honors Society: Member (2015-2016)'
+      ]
     }
   ];
 

@@ -262,6 +262,28 @@ body.dark .current-job {
   border-color: #fff;
 }
 
+/* Footer */
+.footer {
+  background: #f8f9fa;
+  border-top: 1px solid #e5e5e5;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.footer-content {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+body.dark .footer {
+  background: #1a1a1a;
+  border-top-color: #333;
+}
+
+body.dark .footer-content {
+  color: #ccc;
+}
+
 /* Modal Styles */
 .modal-overlay {
   position: fixed;

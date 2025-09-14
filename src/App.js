@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Experience from './components/Experience';
-
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -44,6 +44,7 @@ function App() {
         <Skills />
         <Testimonials />
       </div>
+      <Footer />
     </div>
   );
 }
