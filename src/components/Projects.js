@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'KAIAverse Website',
       image: 'assets/img/portfolio/portfolio-4.jpg',
       link: 'https://kaia-verse.vercel.app/',
-      tags: ['html', 'css', 'js']
+      tags: ['react']
     },
     {
       title: 'Calculator App',
