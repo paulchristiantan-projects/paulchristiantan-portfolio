@@ -13,6 +13,10 @@ const Testimonials = () => {
       text: "I've worked with Paul on some of the feature development of our product as their Product Designer. He ensured that the designs were followed and even suggested a better implementation without compromising the user's experience. His knowledge of Angular JS helped him implement the design through Infor Design System, and he was able to share his expertise with other team members outside the team. Aside from that. he is also proactive when it comes to our cluster's event and is always our go-to person whenever we are planning for our Team Building and other Team events."
     },
     {
+      name: 'Patricia',
+      text: "I have worked alongside Paul as a fellow front-end developer on the Rhythm team at Infor throughout my tenure at the company. Paul consistently demonstrates exceptional technical leadership and initiative, particularly his ability to single-handedly lead and develop entire features while maintaining high code quality and fast delivery. What sets Paul apart is his collaborative approach combined with his extensive research skills and quick learning ability. His knowledge spans multiple front-end frameworks, and he's never afraid to ask thoughtful questions or offer valuable suggestions. His open-mindedness to new ideas and his commitment to finding optimal solutions make him an effective developer who elevates both project outcomes and team collaboration."
+    },
+    {
       name: 'Joseph',
       text: "Paul has shown capability to adjust and contribute consistently. He has accomplished tasks for Rhythm Commerce using Backbone/Marionette and still was able to shift to Angular to contribute to the services team. Apart from the technical accomplishment, he also spearheaded our March 2023 teambuilding activity showcasing his coordination skills. Also appreciate his very positive energy that really helped the team power through during difficult and stressful times."
     },
@@ -39,7 +43,7 @@ const Testimonials = () => {
     {
       name: 'Tammy',
       text: "Having worked with Paul on several features, I've seen firsthand how helpful and hardworking he is. Not only does he give 100% of his effort in solving issues, he has also never shied away from a challenge. Outgoing and naturally friendly, collaborating on projects with Paul was a breeze. He knows how to boost team morale and any team is sure to appreciate his presence."
-    }
+    },
   ];
 
   const displayedTestimonials = showAll ? testimonials : testimonials.slice(0, 2);
