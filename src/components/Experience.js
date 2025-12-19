@@ -17,7 +17,7 @@ const Experience = () => {
       period: '2019 - Present',
       current: true,
       responsibilities: [
-        'Develop and maintain robust web applications using Angular JavaScript',
+        'Develop and maintain robust web applications using Angular',
         'Collaborate with cross-functional teams to gather requirements and design solutions',
         'Apply best practices including code reviews, unit testing, and continuous integration',
         'Troubleshoot technical issues and optimize application performance',
