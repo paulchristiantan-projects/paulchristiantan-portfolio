@@ -14,15 +14,18 @@ const Experience = () => {
     {
       title: 'Software Engineer',
       company: 'Infor PSSC Inc.',
-      period: '2019 - Present',
+      period: 'October 2022 - Present',
       current: true,
       responsibilities: [
-        'Develop and maintain robust web applications using Angular',
-        'Collaborate with cross-functional teams to gather requirements and design solutions',
-        'Apply best practices including code reviews, unit testing, and continuous integration',
-        'Troubleshoot technical issues and optimize application performance',
-        'Engage in Agile development processes and sprint planning',
-        'Perform codelock activities ensuring stable deployments'
+        'Develop and Enhance Applications: Build, maintain, and scale modern web applications using Angular, following modern development standards, performance benchmarks, and accessibility guidelines.',
+        'Collaborate Across Teams: Work closely with cross-functional teams including product, design, QA, and backend engineering to gather requirements, design effective solutions, and deliver features aligned with business objectives.',
+        'Implement Best Practices: Perform comprehensive code reviews, ensure unit and integration test cases are updated, and leverage CI/CD pipelines to deliver high-quality, maintainable software.',
+        'Code Quality & Security Compliance: Maintain strong SonarQube quality gate passing rates by resolving code smells, bugs, and vulnerabilities, while ensuring application security compliance through Cobalt Security and Veracode scans, addressing identified risks in a timely manner.',
+        'Optimize and Troubleshoot: Resolve complex technical issues, improve application performance, and continuously refine the user experience.',
+        'Drive Agile Development: Actively participate in Agile ceremonies including sprint planning, backlog grooming, daily stand-ups, and retrospectives to support efficient and predictable delivery.',
+        'Release and Deployment Management: Manage code lock activities by handling merges, resolving conflicts, and validating deployment readiness to ensure a stable and production-ready codebase.',
+        'Lead Upgrades and Innovations: Lead Angular version upgrades and Infor Design System (IDS) enhancements, including library upgrades, to align with evolving technologies and improve system scalability.',
+        'Legacy Modernization: Migrated legacy portlets from Marionette/Backbone to React, modernizing the frontend architecture, improving maintainability, and increasing development efficiency.'
       ]
     },
     {

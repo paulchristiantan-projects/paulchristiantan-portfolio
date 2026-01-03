@@ -40,13 +40,13 @@ const Skills = () => {
       <div className="modal-overlay">
         <div className="modal-content">
           <div className="modal-header">
-            <button onClick={() => setShowAll(false)} className="back-btn">
-              <i data-lucide="arrow-left"></i> Back
-            </button>
             <h2 className="section-title">
               <i data-lucide="award"></i>
               All Certifications ({allCertifications.length})
             </h2>
+            <button onClick={() => setShowAll(false)} className="modal-close-btn">
+              ×
+            </button>
           </div>
           
           <div className="skills-grid">

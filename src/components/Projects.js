@@ -43,13 +43,13 @@ const Projects = () => {
       <div className="modal-overlay">
         <div className="modal-content">
           <div className="modal-header">
-            <button onClick={() => setShowAll(false)} className="back-btn">
-              <i data-lucide="arrow-left"></i> Back
-            </button>
             <h2 className="section-title">
               <i data-lucide="folder"></i>
               All Projects <span className="count">({projects.length})</span>
             </h2>
+            <button onClick={() => setShowAll(false)} className="modal-close-btn">
+              ×
+            </button>
           </div>
           
           <div className="projects-grid">
