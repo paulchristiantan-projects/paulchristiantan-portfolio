@@ -11,6 +11,12 @@ const Projects = () => {
       tags: ['react']
     },
     {
+      title: 'Clock App',
+      image: 'assets/img/portfolio/portfolio-6.jpg',
+      link: 'https://clock-app-gold-beta.vercel.app/',
+      tags: ['angular']
+    },
+    {
       title: 'Calculator App',
       image: 'assets/img/portfolio/portfolio-2.jpg',
       link: 'https://paulchristiantan-projects.github.io/calculator-app/',

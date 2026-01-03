@@ -9,6 +9,12 @@ const Portfolio = () => {
       tags: ['html', 'css', 'js']
     },
     {
+      title: 'Clock App',
+      image: 'assets/img/portfolio/portfolio-6.jpg',
+      link: 'https://clock-app-gold-beta.vercel.app/',
+      tags: ['angular']
+    },
+    {
       title: 'Birthday Symbol App',
       image: 'assets/img/portfolio/portfolio-1.jpg',
       link: './applications/birthday-symbol-app/index.html',

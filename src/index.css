@@ -834,6 +834,11 @@ body.dark .modal-content {
   color: #333;
   border-color: #61dafb;
 }
+.tag.angular { 
+  background: #dd0031; 
+  color: white;
+  border-color: #dd0031;
+}
 .tag.java { 
   background: #f89820; 
   color: white;
