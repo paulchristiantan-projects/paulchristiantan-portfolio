@@ -302,7 +302,8 @@ body.dark .footer-content {
   background: white;
   border-radius: 12px;
   padding: 30px;
-  max-width: 90vw;
+  width: 95vw;
+  max-width: 1200px;
   max-height: 90vh;
   overflow-y: auto;
   position: relative;
@@ -310,6 +311,40 @@ body.dark .footer-content {
 
 .modal-header {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+  color: #666;
+  font-size: 24px;
+  line-height: 1;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close-btn:hover {
+  background: #f0f0f0;
+  color: #000;
+}
+
+body.dark .modal-close-btn {
+  color: #ccc;
+}
+
+body.dark .modal-close-btn:hover {
+  background: #333;
+  color: #fff;
 }
 
 body.dark .modal-content {
@@ -462,7 +497,7 @@ body.dark .modal-content {
 
 .tech-stack-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
 
