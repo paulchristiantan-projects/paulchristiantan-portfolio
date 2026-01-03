@@ -9,6 +9,7 @@ const Skills = () => {
     { title: 'Angular', provider: 'Udemy', date: 'Jan 2024', url: 'https://www.udemy.com/certificate/UC-0e801ffd-c0a8-44a0-97fc-089606df8ad0/' },
     { title: 'Clean Code', provider: 'Udemy', date: 'Jun 2024', url: 'https://www.udemy.com/certificate/UC-4c9be9c8-a442-4232-89cd-5a148dc58cbf/' },
     { title: 'CSS', provider: 'HackerRank', date: 'Jul 2022', url: 'https://www.hackerrank.com/certificates/11297d97ecc3/' },
+    { title: 'Full stack Web Development Bootcamp', provider: 'Udemy', date: 'Nov 2025', url: 'https://www.udemy.com/certificate/UC-09ce5306-9f15-47a9-8fe8-632df1d850b2/' },
     { title: 'Git & Github', provider: 'Google', date: 'Nov 2020', url: 'https://www.coursera.org/account/accomplishments/verify/Y5UXJAEVME53' },
     { title: 'Git & Github', provider: 'Udemy', date: 'Jan 2024', url: 'https://www.udemy.com/certificate/UC-583d0184-1b1e-4b64-92fd-bc569cf59a5c/' },
     { title: 'Google Cloud Essentials', provider: 'Google Qwiklabs', date: 'Mar 2020', url: 'https://www.cloudskillsboost.google/public_profiles/09ea3b2a-13f3-416f-9454-3994e1693161/' },
@@ -29,7 +30,7 @@ const Skills = () => {
     { title: 'Technical Support Fundamentals', provider: 'Google', date: 'Dec 2020', url: 'https://www.coursera.org/account/accomplishments/verify/NQ54MVQPG2PZ' },
     { title: 'Time Management Mastery', provider: 'Udemy', date: 'Dec 2024', url: 'https://www.udemy.com/certificate/UC-06ce1baf-9710-47d0-b111-54d3b2d60770/' },
     { title: 'TypeScript', provider: 'Udemy', date: 'Oct 2022', url: 'https://www.udemy.com/certificate/UC-18a77a64-3291-4751-9884-5a139ad9e19c/' },
-    { title: 'Understanding NPM - Node.js Package Manager', provider: 'Udemy', date: 'Sep 2024', url: 'http://udemy.com/certificate/UC-965a10df-ac03-4305-a0b2-e57b66939ea1/' }
+    { title: 'Understanding NPM - Node.js Package Manager', provider: 'Udemy', date: 'Sep 2024', url: 'http://udemy.com/certificate/UC-965a10df-ac03-4305-a0b2-e57b66939ea1/' },
   ];
 
   const displayedCertifications = showAll ? allCertifications : allCertifications.slice(0, 6);
